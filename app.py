@@ -28,6 +28,8 @@ if type_apprentissage == "Apprentissage supervisé":
             st.success("Bonne réponse !")
         else:
             st.error(f"Mauvaise réponse. C'était {label_correct}.")
+    st.write("### Explication :")
+    st.write("L'apprentissage supervisé consiste à entraîner un modèle avec des données labellisées. Ici, vous avez identifié un élément à partir d'exemples connus.")
 
 elif type_apprentissage == "Apprentissage non-supervisé":
     st.subheader("Apprentissage non-supervisé - Regroupement de données")
@@ -37,6 +39,8 @@ elif type_apprentissage == "Apprentissage non-supervisé":
     groupes = st.text_input("Proposez un regroupement (ex: 1-5, 6-10)")
     if st.button("Valider"):
         st.info("Il n'y a pas de réponse unique, l'important est d'identifier les similarités !")
+    st.write("### Explication :")
+    st.write("L'apprentissage non-supervisé consiste à identifier des motifs cachés dans les données sans labels. Ici, vous avez regroupé des nombres selon leurs ressemblances.")
 
 elif type_apprentissage == "Apprentissage par renforcement":
     st.subheader("Apprentissage par renforcement - Jeu de récompenses")
@@ -52,4 +56,5 @@ elif type_apprentissage == "Apprentissage par renforcement":
             st.warning("Action neutre, aucun effet.")
         else:
             st.error("Mauvaise action, perte de points !")
-
+    st.write("### Explication :")
+    st.write("L'apprentissage par renforcement consiste à apprendre par essais et erreurs en recevant des récompenses. Ici, vous avez testé différentes actions et observé leurs effets.")
