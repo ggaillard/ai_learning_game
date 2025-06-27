@@ -1,3 +1,19 @@
+# ai_learning_game - Un jeu éducatif sur l'apprentissage automatique
+# Copyright (C) 2025  <Votre Nom ou Organisation>
+#
+# Ce programme est libre : vous pouvez le redistribuer et/ou le modifier
+# selon les termes de la Licence Publique Générale Affero GNU publiée par
+# la Free Software Foundation, soit la version 3 de la licence, soit
+# (à votre choix) toute version ultérieure.
+#
+# Ce programme est distribué dans l'espoir qu'il sera utile,
+# mais SANS AUCUNE GARANTIE ; sans même la garantie implicite de
+# QUALITÉ MARCHANDE ou D'ADÉQUATION À UN BUT PARTICULIER. Voir la
+# Licence Publique Générale Affero GNU pour plus de détails.
+#
+# Vous devriez avoir reçu une copie de la Licence Publique Générale Affero GNU
+# avec ce programme. Si ce n'est pas le cas, voir <https://www.gnu.org/licenses/>.
+
 try:
     import streamlit as st
     import random
