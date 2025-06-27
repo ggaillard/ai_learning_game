@@ -108,15 +108,27 @@ L'application s'ouvrira automatiquement dans votre navigateur à l'adresse `http
 - Vérifiez le système de score
 - Testez la responsivité sur différents appareils
 
+### 📸 Documentation visuelle
+Consultez [SCREENSHOTS.md](SCREENSHOTS.md) pour voir des captures d'écran détaillées de chaque interface :
+- 🏠 Page d'accueil avec navigation
+- 🔍 Module apprentissage supervisé
+- 🧩 Module apprentissage non-supervisé  
+- 🎮 Module apprentissage par renforcement (Agent Explorateur)
+- 📖 Glossaire intégré
+- 📱 Adaptations responsive (mobile/desktop)
+
 ### Structure du projet
 ```
 ai_learning_game/
-├── app.py              # Application principale Streamlit
-├── requirements.txt    # Dépendances Python
-├── Procfile           # Configuration Heroku
-├── README.md          # Cette documentation
-├── LICENSE            # Licence AGPLv3
-└── CONTRIBUTING.md    # Guide de contribution
+├── app.py                 # Application principale Streamlit
+├── requirements.txt       # Dépendances Python
+├── Procfile              # Configuration Heroku
+├── README.md             # Cette documentation
+├── SCREENSHOTS.md        # 📸 Documentation visuelle des interfaces
+├── STRUCTURE.md          # 📁 Structure détaillée du projet
+├── LICENSE               # Licence AGPLv3
+├── CONTRIBUTING.md       # Guide de contribution
+└── .gitignore           # Fichiers à ignorer par Git
 ```
 
 ## 🤝 Contribution
@@ -137,13 +149,26 @@ Les contributions sont les bienvenues ! Consultez [CONTRIBUTING.md](CONTRIBUTING
 
 ## 📄 Licence
 
-Ce projet est sous licence **AGPLv3**. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Ce projet est sous **licence éducative libre et non commerciale** (CC BY-NC-SA 4.0 Educational Use).
+
+### 🎓 Utilisation autorisée pour :
+- ✅ **Enseignement** en classe, cours, ateliers
+- ✅ **Apprentissage** personnel et projets étudiants  
+- ✅ **Recherche académique** non commerciale
+- ✅ **Modifications pédagogiques** et traductions
+
+### 🚫 Utilisation interdite pour :
+- ❌ **Commercialisation** directe ou indirecte
+- ❌ **Vente de services** basés sur ce logiciel
+- ❌ **Intégration commerciale** sans autorisation
+
+Voir le fichier [LICENSE_EDUCATIONAL](LICENSE_EDUCATIONAL) pour les détails complets.
 
 ## 🆘 Support
 
 - 🐛 **Bugs** : Ouvrez une [issue](https://github.com/votre-username/ai_learning_game/issues)
 - 💡 **Suggestions** : Proposez vos idées via les issues
-- 📧 **Contact** : [votre-email@exemple.com]
+
 
 ## 🏷️ Version
 

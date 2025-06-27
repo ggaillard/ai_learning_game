@@ -8,9 +8,11 @@ Merci de votre intérêt pour contribuer à ce projet !
 - Décrivez clairement vos changements dans la PR.
 
 ## Bonnes pratiques
-- Respectez la licence AGPLv3.
+- Respectez la licence éducative (CC BY-NC-SA 4.0 Educational Use).
+- Les contributions doivent avoir un objectif pédagogique clair.
 - Ajoutez des tests si possible.
-- Documentez votre code.
+- Documentez votre code de manière didactique.
+- Incluez des explications pour les concepts d'IA introduits.
 
 ## Code de conduite
 Merci de rester respectueux et constructif dans vos échanges.
