@@ -1,2 +1,3 @@
 # Dépendances Python pour ai_learning_game
 streamlit
+pandas
