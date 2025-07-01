@@ -96,10 +96,6 @@ L'application s'ouvrira automatiquement dans votre navigateur à l'adresse `http
 4. Sélectionnez votre fork du projet
 5. L'application sera automatiquement déployée !
 
-### Autres plateformes
-- **[Heroku](https://heroku.com)** : Avec le `Procfile` inclus
-- **[Railway](https://railway.app)** : Déploiement automatique depuis GitHub
-- **[Replit](https://replit.com)** : Environnement de développement en ligne
 
 ## 🧪 Tests et développement
 
